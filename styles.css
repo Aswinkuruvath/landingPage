@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 100px;
+    height: 50px;  
+    margin-left: 40px; 
+    padding: 10px;
+}
+
+nav{
+    background-color:#78c5f1;
+    display: flex;
+    justify-content: space-between;
+}
+.links,a{
+color: black;
+ display: flex;
+ gap: 20px; 
+ align-items: center;
+ text-decoration: none;
+ padding-right: 10px;
+}
+.header-photo{
+    height: 150px;
+    width: 250px;
+}
+.header{
+    background-color: #78c5f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:40vh;
+}
+.left-header{
+    padding-left:30px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.right-header{
+    padding-right: 20px;
+    margin: 10px;
+}
