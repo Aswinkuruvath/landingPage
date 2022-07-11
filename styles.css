@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
+
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 .logo{
     width: 100px;
@@ -23,24 +25,110 @@ color: black;
  padding-right: 10px;
 }
 .header-photo{
-    height: 150px;
+    height: 160px;
     width: 250px;
 }
 .header{
     background-color: #78c5f1;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height:40vh;
+    /* height:40vh; */
 }
-.left-header{
-    padding-left:30px;
-    margin: 10px;
+ .left-header{
+    width: 300px;
+    margin-left: auto;
     display: flex;
     flex-direction: column;
-    
+    flex-wrap: wrap;
+}
+.button{
+    align-self: flex-start;
+    background-color:tomato;
+    margin: 6px;
+    border: 0;
+    padding: 5px;
+    font-size: medium;
 }
 .right-header{
-    padding-right: 20px;
-    margin: 10px;
+    margin-right: auto;
+    margin-left: 50px;
+} 
+.content{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left:-30px ;
+}
+
+.imgcont{
+    margin: 15px;
+    display: flex;
+    gap: 30px;
+}
+.txtcont{
+    margin: 15px;
+    display: flex;
+    gap: 30px;
+}
+img{
+    border-radius: 5px;
+    width: 140px;
+    height: 150px;
+}
+.para{
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    width: 150px;
+    height: 150px;
+}
+.quotebar{
+    border: 1px solid black;
+    height: 300px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quotesp{
+    display: flex;
+    width:500px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.cardholder{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+.card{
+    border:0;
+    background-color:#78c5f1;
+    border-radius: 5px;
+    display: flex;
+    margin: 30px 310px; 
+    padding: 30px;
+    gap:20px;
+}
+.card,p{
+    /* font goes here */
+}
+.right{
+    background-color:#78c5f1;
+    border-radius: 3px;
+    border: 2px solid white ;
+    width: 40px;
+    max-height: 25px;
+    padding: 3px 3px;
+}
+footer{
+    background-color: #aeb1b8;
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
 }
